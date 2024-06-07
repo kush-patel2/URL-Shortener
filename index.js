@@ -12,7 +12,9 @@ const urlRoute = require("./routes/url");
 const staticRoute = require('./routes/staticRouter');
 const userRoute = require('./routes/user');
 
-connectToMongoDb("mongodb+srv://kushp3220:OGlgirP2eWw8gKOm@cluster0.yeo3czj.mongodb.net/short-url?retryWrites=true&w=majority").then(() => console.log("MongoDb Connected"));
+connectToMongoDb("url").then(() => console.log("MongoDb Connected"));
+
+
 
 
 
